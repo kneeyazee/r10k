@@ -1,4 +1,1 @@
-class profile::base {
-  class { '::ntp': }
-}
-
+hiera_include('classes', '')
