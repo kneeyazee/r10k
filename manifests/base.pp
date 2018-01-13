@@ -1,2 +1,2 @@
 hiera_include('classes', '')
-node '*' {}
+node default {}
