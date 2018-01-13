@@ -1,3 +1,9 @@
 ---
 ntp::autoupdate: false
 ntp::service_name: ntpd
+ntp::enable: true
+ntp::servers:
+  - 0.us.pool.ntp.org iburst
+  - 1.us.pool.ntp.org iburst
+  - 2.us.pool.ntp.org iburst
+  - 3.us.pool.ntp.org iburst
